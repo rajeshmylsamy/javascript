@@ -1,8 +1,3 @@
-const person = function (num) {
-	return num * num;
-};
-console.log(person(2)); //4
-
 const squareSingle = (num) => num * num;
 console.log(squareSingle(4)); //16
 

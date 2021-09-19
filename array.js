@@ -24,3 +24,7 @@ console.log(combined);
 //filter
 var b = a.filter((val) => val != 2);
 console.log(b); //[ 1, 3]
+
+//updating
+var b = a.map((val) => (val === 1 ? 11 : val));
+console.log(b); //[ 11, 2, 3]
